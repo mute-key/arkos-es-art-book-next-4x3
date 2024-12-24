@@ -199,7 +199,7 @@ license:       creative commons CC-BY-NC-SA
             <selectedColor>${gamelistListTextlistSelectedColor}</selectedColor>
             <primaryColor>${gamelistListTextlistUnselectedColor}</primaryColor>
             <secondaryColor>${gamelistListTextlistUnselectedColor}</secondaryColor>
-            <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
+            <scrollSound>./resource/sounds/scroll.wav</scrollSound>
             <zIndex>5</zIndex>
             <!-- <fontsize>0.038</fontsize> -->
             <!-- <linespacing>1.5125</linespacing>  -->
