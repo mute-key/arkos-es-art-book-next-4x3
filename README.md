@@ -27,10 +27,15 @@ you can see there is an transparent layer between system logo and carousel. the 
 
 ## Changes from previous theme
 
-I adjusted and modified few things here and there. some of the changes are as follow;
+I added and modified few things here and there. some of the changes are as follow;
 
-* Added new transparent layer in system-multi view for better contrast.
-* The options you can choose in __System select Overlay__ in theme options; 
+* Added new transparent layer in system-multi view for better contrast and option to select the contrast ratio in `Theme Configuration -> Overlay Transparency`.
+    - Medium (default) 
+    - Light
+    - Very Light
+    - Dark 
+    - Very Dark
+* The bezel options you can choose in `Theme Configuration -> System select Overlay`; 
     - Side bezel
     - All-side bezel
     - No bezel 

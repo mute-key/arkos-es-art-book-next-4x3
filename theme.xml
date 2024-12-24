@@ -63,9 +63,9 @@ license:       creative commons CC-BY-NC-SA
 
     <!-- overlay transparency opacity -->
     <subset name="overlay-transparency" displayName="Overlay Transparency">
+        <include name="medium" displayName="Medium (Default)">${screenPath}/overlay-transparency-medium.xml</include>
         <include name="very-light" displayName="Very Light">${screenPath}/overlay-transparency-very-light.xml</include>
         <include name="light" displayName="Light">${screenPath}/overlay-transparency-light.xml</include>
-        <include name="medium" displayName="Medium">${screenPath}/overlay-transparency-medium.xml</include>
         <include name="dark" displayName="Dark">${screenPath}/overlay-transparency-dark.xml</include>
         <include name="very-dark" displayName="Very Dark">${screenPath}/overlay-transparency-very-dark.xml</include>
     </subset>
