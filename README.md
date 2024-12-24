@@ -10,7 +10,7 @@ The stock os for rg353m was very glitchy so i decided switch to ArkOS and no the
 
 This version of the theme is for ArkOS Emulationstation-FCAMOD frontend on 640x480 resolution. More specifically it was worked on rg353m model. i didn't have enough time to  super-fine-tune the numbers of the elements but they should look just as good. 
 
-A lot of firmwares are already comes with art-book-next theme but some are yet not. If you like this variant and does not coem with art-book-next theme, then there is a good chance that this theme would work for the devices (other than to the ones that i own which is rg353m) if it has screen ratio of 4x3 with Emulationstation as the frontend espeically if the resolution is 640x480. 
+A lot of firmwares are already comes with art-book-next theme but some are yet not. If you like this variant and does not come with art-book-next theme, then there is a good chance that this theme would work for the devices (other than to the ones that i own which is rg353m) if it has screen ratio of 4x3 with Emulationstation as the frontend espeically if the resolution is 640x480. 
 
 I have tested this theme on stock OS (older version of batocera) and it works into some degrees but battery indicator didn't work at all. Everything seemed fine except that. 
 
@@ -40,25 +40,24 @@ I adjusted and modified few things here and there. some of the changes are as fo
 * Changed battery indiciator to frontend default and added spacing between icon and text
 * Added option to select system images between default and custom. You can change theme also.
     - Added custom system images;
-        - nes: mega man 3 
-        - gb: pokemon yellow
-        - gbc: pokemon trading card game 
-        - gba: final fantasy tactics advance 
-        - neogeo: kof98
-        - satern: castleveina symphony of the night 
-        - nds: professor layton curious village
-        - psx: valkyrie profile 
-        - psp: monster hunter portable 3rd
-        - mame: arcade pixel art [Link](https://www.reddit.com/r/readyplayerone/comments/116gill/i_drew_this_pixel_art_of_an_old_arcade_and_called/)
-        - last-played: bookshelf pixel art from [Link](https://www.reddit.com/r/PixelArt/comments/11m1fcp/bookshelf/)
+        - __nes__: *mega man 3*
+        - __gb__: *pokemon yellow*
+        - __gbc__: *pokemon trading card game*
+        - __gba__: *final fantasy tactics advance*
+        - __neogeo__: *kof98*
+        - __satern__: *castleveina symphony of the night*
+        - __nds__: *professor layton curious village*
+        - __psx__: *valkyrie profile*
+        - __psp__: *monster hunter portable 3rd*
+        - __mame__: *arcade pixel art from [Link](https://www.reddit.com/r/readyplayerone/comments/116gill/i_drew_this_pixel_art_of_an_old_arcade_and_called/)*
+        - __last-played__: *bookshelf pixel art from [Link](https://www.reddit.com/r/PixelArt/comments/11m1fcp/bookshelf/)*
 
 
 ## Sidenote (Disclaimer)
 
 You do not need to read this unless you want to edit the theme for yourself but here is the list of my findings for the future just in case if i want to come back and add more stuff.
 
- -  WiFi Indicator could not be displayed on the frontend on the versions of the frontend of my device. The only way to check the WiFi connection was through the main menu. 
-I do not own a device other than rg353m so i could not implement it correctly. 
+ -  WiFi Indicator could not be displayed on the versions of the frontend of my device. The only way to check the WiFi connection was through the main menu. I do not own devices other than rg353m so i could not check. 
 
 -  variable elements can't be re-assigend with other value once it is assigned. 
 
