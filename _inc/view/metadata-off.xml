@@ -1,0 +1,39 @@
+<theme>
+    <subset name="tumbnail" displayName="Thumbnail Box">
+        <include name="on" displayName="On">./thumbnail-on.xml</include>
+        <include name="off" displayName="Off">./thumbnail-off.xml</include>
+    </subset>
+    <view name="detailed,video">
+        <image name="gamelist-background" extra="true">
+            <size>0.5 1</size>
+        </image>
+    </view>
+    <view name="detailed">
+        <image name="md_image">
+            <pos>0.75 0.469</pos>
+            <maxSize>0.40625 0.895833333333333</maxSize>
+        </image>
+        <image name="md_marquee">
+            <pos>0.75 0.11875</pos>
+            <maxSize>0.4 0.10</maxSize>
+        </image>
+        <image name="md_thumbnail">
+            <pos>0.60 0.80</pos>
+            <maxSize>0.15 0.30</maxSize>
+        </image>
+    </view>
+    <view name="video">
+        <video name="md_video">
+            <pos>0.75 0.469</pos>
+            <maxSize>0.46 0.895833333333333</maxSize>
+        </video>
+        <image name="md_marquee">
+            <pos>0.75 0.11875</pos>
+            <maxSize>0.4 0.10</maxSize>
+        </image>
+        <image name="md_thumbnail">
+            <pos>0.60 0.80</pos>
+            <maxSize>0.15 0.30</maxSize>
+        </image>
+    </view>
+</theme>

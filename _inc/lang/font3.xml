@@ -1,0 +1,27 @@
+<theme>
+    <variables>
+        <fontBold>Oxygen-Bold.otf</fontBold>
+        <fontLight>Oxygen-Light.otf</fontLight>
+        <fontRegular>Oxygen-Regular.otf</fontRegular>
+    </variables>
+    <view name="basic,detailed,video">
+        <textlist name="gamelist">
+            <fontSize>0.038</fontSize>
+            <lineSpacing>1.5125</lineSpacing>
+        </textlist>
+    </view>
+    <view name="detailed,video">
+        <text name="md_description">
+            <fontSize>0.03</fontSize>
+            <lineSpacing>1.27</lineSpacing>
+        </text>
+    </view>
+    <view name="menu">
+        <menuText name="menutitle">
+            <fontSize>0.045</fontSize>
+        </menuText>
+        <menuText name="menutext">
+            <fontSize>0.036</fontSize>
+        </menuText>
+    </view>
+</theme>

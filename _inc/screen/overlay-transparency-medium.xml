@@ -1,0 +1,8 @@
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="system">
+        <image name="system-art-mask">
+            <color>${overlayColor}79</color>
+        </image>
+    </view>
+</theme>

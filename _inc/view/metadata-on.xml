@@ -1,0 +1,48 @@
+<theme>
+    <view name="detailed,video">
+        <image name="game-metadata-background" extra="true">
+            <origin>0 0</origin>
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>${gamelistListMetadataBackgroundColor}</color>
+            <pos>0.5 0</pos>
+            <size>0.5 1</size>
+            <zIndex>2</zIndex>
+        </image>
+        <rating name="md_rating">
+            <origin>0 0.5</origin>
+            <pos>0.546875 0.725</pos>
+            <size>0 0.041666666666667</size>
+            <zIndex>4</zIndex>
+        </rating>
+        <text name="md_description">
+            <origin>0 0</origin>
+            <pos>0.546875 0.78</pos>
+            <size>0.40625 0.158333333333333</size>
+            <zIndex>4</zIndex>
+        </text>
+        <image name="gamelist-background" extra="true">
+            <size>0.5 1</size> 
+        </image>
+    </view>
+    <view name="detailed">
+        <image name="md_image">
+            <pos>0.75 0.322916666666667</pos>
+            <maxSize>0.40625 0.520833333333333</maxSize>
+        </image>
+        <image name="md_marquee">
+            <pos>0.75 0.65</pos>
+            <maxSize>0.4 0.1</maxSize>
+        </image>
+    </view>
+    <view name="video">
+        <video name="md_video"> 
+            <pos>0.75 0.322916666666667</pos>
+            <maxSize>0.40625 0.520833333333333</maxSize>
+        </video>
+        <image name="md_marquee">
+            <pos>0.75 0.65</pos>
+            <maxSize>0.4 0.1</maxSize>
+        </image>
+    </view>
+</theme>

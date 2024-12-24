@@ -1,0 +1,53 @@
+<theme>
+    <view name="system">
+        <image name="logo">
+            <path>${systemImagePath}/_default.png</path>
+            <path>${systemImagePath}/${system.theme}.png</path>
+            <color>ffffffe9</color>
+            <saturation>${systemArtSaturation}</saturation>
+        </image>
+        <text name="logoText">
+            <color>${systemLogoColor}</color>
+            <fontSize>0.15</fontSize>
+        </text>
+        <carousel name="systemcarousel">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <color>00000000</color>
+            <type>horizontal</type>
+            <logoScale>1</logoScale>
+            <logoSize>1 1</logoSize>
+            <zIndex>4</zIndex>
+            <maxLogoCount>4</maxLogoCount>
+            <scrollSound>./resource/sounds/scroll.wav</scrollSound>
+            <defaultTransition>instant</defaultTransition>
+        </carousel>
+        <text name="systemInfo">
+            <pos>1 1</pos>
+        </text>
+        <image name="system-art" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <maxSize>0.5 0.3</maxSize>
+            <color>${systemLogoColor}</color>
+            <path>${logoPath}/${system.theme}.png</path>
+            <zIndex>50</zIndex>
+        </image>
+        <image name="system-carousel-bakground" extra="true">
+            <origin>0.5 0</origin>
+            <pos>0.5 0</pos>
+            <size>1 1</size>
+            <tile>true</tile>
+            <color>${systemCarouselBackgroundColor}</color>
+            <path>${spacerImage}</path>
+            <zIndex>2</zIndex>
+        </image>
+        <image name="system-art-mask" extra="true">
+            <origin>0.5 0</origin>
+            <pos>0.5 0</pos>
+            <size>0 1</size>
+            <zIndex>5</zIndex>
+        </image>
+    </view>
+</theme>

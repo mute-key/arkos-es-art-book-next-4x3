@@ -1,0 +1,6 @@
+<theme>
+    <formatVersion>7</formatVersion>
+    <variables>
+        <systemImagePath>./resource/systems</systemImagePath>
+    </variables>
+</theme>

@@ -1,0 +1,7 @@
+<theme>
+    <view name="system">
+        <image name="system-art-mask">
+            <path>${imagePath}/system-art-mask-4-3-bezel-side.png</path>
+        </image>
+    </view>
+</theme>
