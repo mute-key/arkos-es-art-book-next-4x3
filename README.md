@@ -6,18 +6,18 @@ Before to begin, thanks to;
 
 ## Introduction
 
-The stock os for rg353m was very glitchy so i decided switch to ArkOS and no themes were complete.
+The stock os for rg353m was very glitchy so i decided switch to ArkOS and no themes were complete for my preference.
 
 This version of the theme is for ArkOS Emulationstation-FCAMOD frontend on 640x480 resolution. More specifically it was worked on rg353m model. i didn't have enough time to  super-fine-tune the numbers of the elements but they should look just as good. 
 
-A lot of firmwares are already comes with art-book-next theme but some are yet not. If you like this variant and does not come with art-book-next theme, then there is a good chance that this theme would work for the devices (other than to the ones that i own which is rg353m) if it has screen ratio of 4x3 with Emulationstation as the frontend espeically if the resolution is 640x480. 
+A lot of firmwares are already comes with art-book-next theme but some are yet not. If you like this variant and does not come with art-book-next theme, then there is a good chance that this theme would work for the devices (other than rg353m) if it has screen ratio of 4x3 with Emulationstation as the frontend espeically if the resolution is 640x480. 
 
-I have tested this theme on stock OS (older version of batocera) and it works into some degrees but battery indicator didn't work at all. Everything seemed fine except that. 
+I have tested this theme on stock OS (older version of batocera) and it works into some degrees but battery indicator didn't work at all. Everything else seemed fine except that. 
 
 
 ## Preview 
 
-I do not own a capture card so i couldn't take the screenshot so this is the best i can do. i was working through ssh and was hoping to be able to take screenshots but scrot would not work because the frontend is not x-window (ofc). 
+I do not own a capture card so i couldn't take the screenshot so this is the best i can do. i was working through ssh and was hoping to be able to take screenshots but scrot would not work because the frontend is not x-window ofc. 
 
 you can see there is an transparent layer between system logo and carousel. the default contrast between the selected systems was not enough for my likings. the extra layer really made the selected system image to stand out than the others and more interesting to slide it through. you can remove the contrast layer, set bezels or change the opacity of the layer in the theme options. 
 
@@ -43,7 +43,7 @@ I added and modified few things here and there. some of the changes are as follo
 * Moved clock to top left and adjusted cordinate
 * Moved battery indiciator to top right and adjusted cordinate
 * Changed battery indiciator to frontend default and added spacing between icon and text
-* Added option to select system images between default and custom. You can change theme also.
+* Added option to select system images between default and custom in `Theme Configuration -> System View: Image`. You can change theme also.
     - Added custom system images;
         - __nes__: *mega man 3*
         - __gb__: *pokemon yellow*
