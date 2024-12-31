@@ -17,7 +17,7 @@ I have tested this theme on stock OS (older version of batocera) and it works in
 
 ## Preview 
 
-I do not own a capture card so i couldn't take the screenshot so this is the best i can do. i was working through ssh and was hoping to be able to take screenshots but scrot would not work because the frontend is not x-window ofc. 
+I do not own a capture card so i couldn't take the screenshot so this is the best i can do. i was working through ssh and was hoping to be able to take screenshots but scrot would not work because no x11?. 
 
 you can see there is an transparent layer between system logo and carousel. the default contrast between the selected systems was not enough for my likings. the extra layer really made the selected system image to stand out than the others and more interesting to slide it through. you can remove the contrast layer, set bezels or change the opacity of the layer in the theme options. 
 
