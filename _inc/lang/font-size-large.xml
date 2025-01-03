@@ -1,0 +1,16 @@
+<!-- 
+==========================================================
+> LARGE FONTSIZE: 1.25x
+==========================================================
+ -->
+<theme defaultTransition="instant">
+    <formatVersion>7</formatVersion>
+    <variables>
+        <gamelistFontSize>0.0339</gamelistFontSize>
+        <gameDescFontSize>0.02486</gameDescFontSize>
+        <menuTitleFontSize>0.03616</menuTitleFontSize>
+        <menuTextFontSize>0.03389</menuTextFontSize>
+        <systemInfoFontSize>0.02825</systemInfoFontSize>
+        <systemHelpFontSize>0.04068</systemHelpFontSize>
+    </variables>
+</theme>

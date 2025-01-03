@@ -1,0 +1,16 @@
+<!-- 
+==========================================================
+> LARGEST FONTSIZE: 1.75x
+==========================================================
+ -->
+<theme>
+    <formatVersion>7</formatVersion>
+    <variables>
+        <gamelistFontSize>0.0417</gamelistFontSize>
+        <gameDescFontSize>0.03058</gameDescFontSize>
+        <menuTitleFontSize>0.04448</menuTitleFontSize>
+        <menuTextFontSize>0.0417</menuTextFontSize>
+        <systemInfoFontSize>0.03475</systemInfoFontSize>
+        <systemHelpFontSize>0.05005</systemHelpFontSize>
+    </variables>
+</theme>

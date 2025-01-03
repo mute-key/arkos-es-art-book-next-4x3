@@ -17,7 +17,7 @@ I have tested this theme on stock OS (older version of batocera) and it works in
 
 ## Preview 
 
-I do not own a capture card so i couldn't take the screenshot so this is the best i can do. i was working through ssh and was hoping to be able to take screenshots but scrot would not work because no x11?. 
+I do not own a capture card so i couldn't take the screenshot so this is the best i can do. i was working through ssh and was hoping to be able to take screenshots but scrot would not work because the frontend is not x-window ofc. 
 
 you can see there is an transparent layer between system logo and carousel. the default contrast between the selected systems was not enough for my likings. the extra layer really made the selected system image to stand out than the others and more interesting to slide it through. you can remove the contrast layer, set bezels or change the opacity of the layer in the theme options. 
 
@@ -29,7 +29,7 @@ you can see there is an transparent layer between system logo and carousel. the 
 
 I added and modified few things here and there. some of the changes are as follow;
 
-* Added new transparent layer in system-multi view for better contrast and option to select the contrast ratio in `Theme Configuration -> Overlay Transparency`.
+* Added new transparent layer in system-multi view for better contrast and option to select the contrast ratio in `Theme Configuration -> Overlay Transparency`;
     - Medium (default) 
     - Light
     - Very Light
@@ -56,8 +56,12 @@ I added and modified few things here and there. some of the changes are as follo
         - __psp__: *monster hunter portable 3rd*
         - __mame__: *arcade pixel art from [Link](https://www.reddit.com/r/readyplayerone/comments/116gill/i_drew_this_pixel_art_of_an_old_arcade_and_called/)*
         - __last-played__: *bookshelf pixel art from [Link](https://www.reddit.com/r/PixelArt/comments/11m1fcp/bookshelf/)*
-
-
+* Added option to select the font size `Theme Configuration -> Font Size`. To change the font size, the font size values are in **./__inc/lang/font-size-*.xml**.
+    - Default (1x)
+    - Large (1.13x)
+    - Larger (1.26x)
+    - Largest (1.39x)
+    
 ## Sidenote (Disclaimer)
 
 You do not need to read this unless you want to edit the theme for yourself but here is the list of my findings for the future just in case if i want to come back and add more stuff.
