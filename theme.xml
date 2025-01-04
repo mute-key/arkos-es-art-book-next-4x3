@@ -44,10 +44,10 @@ license:       creative commons CC-BY-NC-SA
     </subset>    
 
     <subset name="fontSize" displayName="Font Size">
-        <include name="default" displayName="Default">${langPath}/font-size-default.xml</include>
-        <include name="large" displayName="Large">${langPath}/font-size-large.xml</include>
-        <include name="larger" displayName="Larger">${langPath}/font-size-larger.xml</include>
-        <include name="largest" displayName="Largest">${langPath}/font-size-largest.xml</include>
+        <include name="regular" displayName="Regular (1x)">${langPath}/font-size-regular.xml</include>
+        <include name="medium" displayName="Medium (1.13x)">${langPath}/font-size-medium.xml</include>
+        <include name="large" displayName="Large (1.26x)">${langPath}/font-size-large.xml</include>
+        <include name="very-large" displayName="Very Large (1.39x)">${langPath}/font-size-very-large.xml</include>
     </subset>
 
     <!-- system image path options -->
