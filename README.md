@@ -59,7 +59,7 @@ I added and modified few things here and there. some of the changes are as follo
 * Added option to select the font size `Theme Configuration -> Font Size`. To change the font size, the font size values are in **./__inc/lang/font-size-*.xml**.
     - Default (1x)
     - Medium (1.13x)
-    - Large (1.13x)
+    - Large (1.26x)
     - Very Large (1.39x)
     
 ## Sidenote (Disclaimer)
