@@ -19,8 +19,6 @@ license:       creative commons CC-BY-NC-SA
         <imagePath>./resource/images</imagePath>
         <logoPath>./resource/logo</logoPath>
         <fontPath>./resource/fonts</fontPath>
-
-        <screenFontSize>0.0313</screenFontSize>
         <footerFontSize>0.0265</footerFontSize>
     </variables>
 
@@ -44,10 +42,10 @@ license:       creative commons CC-BY-NC-SA
     </subset>    
 
     <subset name="fontSize" displayName="Font Size">
-        <include name="regular" displayName="Regular (1x)">${langPath}/font-size-regular.xml</include>
-        <include name="medium" displayName="Medium (1.13x)">${langPath}/font-size-medium.xml</include>
-        <include name="large" displayName="Large (1.26x)">${langPath}/font-size-large.xml</include>
-        <include name="very-large" displayName="Very Large (1.39x)">${langPath}/font-size-very-large.xml</include>
+        <include name="regular" displayName="Regular">${langPath}/font-size-regular.xml</include>
+        <include name="medium" displayName="Medium">${langPath}/font-size-medium.xml</include>
+        <include name="large" displayName="Large">${langPath}/font-size-large.xml</include>
+        <include name="very-large" displayName="Very Large">${langPath}/font-size-very-large.xml</include>
     </subset>
 
     <!-- system image path options -->
@@ -150,10 +148,10 @@ license:       creative commons CC-BY-NC-SA
             <zIndex>49</zIndex>
         </image>
         <helpsystem name="help">
+            <fontPath>${fontPath}/${fontLight}</fontPath>
             <fontSize>${footerFontSize}</fontSize>
             <textColor>${systemLogoColor}</textColor>
             <iconColor>${systemLogoColor}</iconColor>
-            <fontPath>${fontPath}/${fontLight}</fontPath>
         </helpsystem>
     </view>
 
@@ -185,10 +183,10 @@ license:       creative commons CC-BY-NC-SA
             <color>${backgroundColor}</color>
         </image>
         <helpsystem name="help">
+            <fontPath>${fontPath}/${fontLight}</fontPath>
             <fontSize>${footerFontSize}</fontSize>
             <textColor>${systemLogoColor}</textColor>
             <iconColor>${systemLogoColor}</iconColor>
-            <fontPath>${fontPath}/${fontLight}</fontPath>
         </helpsystem>
         <image name="help-background" extra="static">
             <origin>0 1</origin>
@@ -238,10 +236,10 @@ license:       creative commons CC-BY-NC-SA
             <size>1 1</size>
         </image>
         <helpsystem name="help">
+            <fontPath>${fontPath}/${fontLight}</fontPath>
             <fontSize>${footerFontSize}</fontSize>
             <textColor>${systemLogoColor}</textColor>
             <iconColor>${systemLogoColor}</iconColor>
-            <fontPath>${fontPath}/${fontLight}</fontPath>
         </helpsystem>
     </view>
     <view name="detailed,video">
@@ -260,17 +258,17 @@ license:       creative commons CC-BY-NC-SA
         </textlist>
         <text
             name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,n,md_name,md_lbl_gametime,md_gametime">
+            <fontPath>${fontPath}/${fontBold}</fontPath>
             <origin>0 0.5</origin>
             <pos>1 1</pos>
-            <fontPath>${fontPath}/${fontBold}</fontPath>
             <alignment>left</alignment>
             <color>${gamelistListMetadataColor}</color>
             <forceUppercase>true</forceUppercase>
         </text>
         <datetime name="md_releasedate,md_lastplayed">
+            <fontPath>${fontPath}/${fontBold}</fontPath>
             <origin>0 0.5</origin>
             <pos>1 1</pos>
-            <fontPath>${fontPath}/${fontBold}</fontPath>
             <color>${gamelistListMetadataColor}</color>
             <alignment>left</alignment>
             <forceUppercase>true</forceUppercase>
@@ -315,8 +313,8 @@ license:       creative commons CC-BY-NC-SA
             <path>${imagePath}/icon-publisher.svg</path>
         </image>
         <text name="md_description">
-            <origin>0 0</origin>
             <fontPath>${fontPath}/${fontRegular}</fontPath>
+            <origin>0 0</origin>
             <color>${gamelistListDescriptionColor}</color>
             <forceUppercase>false</forceUppercase>
         </text>
@@ -326,10 +324,10 @@ license:       creative commons CC-BY-NC-SA
             <color>${gamelistListMetadataBackgroundColor}</color>
         </image>
         <helpsystem name="help">
+            <fontPath>${fontPath}/${fontLight}</fontPath>
             <fontSize>${footerFontSize}</fontSize>
             <textColor>${systemLogoColor}</textColor>
             <iconColor>${systemLogoColor}</iconColor>
-            <fontPath>${fontPath}/${fontLight}</fontPath>
         </helpsystem>
     </view>
     <view name="detailed">
