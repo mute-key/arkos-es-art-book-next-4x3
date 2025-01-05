@@ -5,7 +5,7 @@
  -->
 <theme>
     <formatVersion>7</formatVersion>
-    <variables>    
+    <variables>
         <gamelistFontSize>0.030</gamelistFontSize>
         <gameDescFontSize>0.022</gameDescFontSize>
         <menuTitleFontSize>0.032</menuTitleFontSize>

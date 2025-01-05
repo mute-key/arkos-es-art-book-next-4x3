@@ -35,18 +35,18 @@ license:       creative commons CC-BY-NC-SA
     </subset>
 
     <!-- fonts -->
+    <subset name="font-size" displayName="Font Size">
+        <include name="font-size-regular" displayName="Regular">${langPath}/font-size-regular.xml</include>
+        <include name="font-size-medium" displayName="Medium">${langPath}/font-size-medium.xml</include>
+        <include name="font-size-large" displayName="Large">${langPath}/font-size-large.xml</include>
+        <include name="font-size-very-large" displayName="Very Large">${langPath}/font-size-very-large.xml</include>
+    </subset>
+
     <subset name="fontt" displayName="Font Type">
         <include name="font1" displayName="PretendardGOV">${langPath}/font1.xml</include>
         <include name="font2" displayName="NanumSquareNeo">${langPath}/font2.xml</include>
         <include name="font3" displayName="Oxygen">${langPath}/font3.xml</include>
     </subset>    
-
-    <subset name="fontSize" displayName="Font Size">
-        <include name="regular" displayName="Regular">${langPath}/font-size-regular.xml</include>
-        <include name="medium" displayName="Medium">${langPath}/font-size-medium.xml</include>
-        <include name="large" displayName="Large">${langPath}/font-size-large.xml</include>
-        <include name="very-large" displayName="Very Large">${langPath}/font-size-very-large.xml</include>
-    </subset>
 
     <!-- system image path options -->
     <subset name="system-view-image" displayName="System View: image">
