@@ -64,7 +64,7 @@ I added and modified few things here and there. some of the changes are as follo
     - Max (1.4x)
 * Added option to select how many systems to display on system view. 
     - 5 Systems
-    - 3 Systems (this is seems to be the default for a lot of 1x1 screen aspect ratio devices)
+    - 3 Systems (this seems to be the default for a lot of 1x1 screen aspect ratio devices)
 
     
 ## Sidenote (Disclaimer)
