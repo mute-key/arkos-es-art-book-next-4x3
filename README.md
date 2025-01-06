@@ -58,11 +58,18 @@ I added and modified few things here and there. some of the changes are as follo
         - __last-played__: *bookshelf pixel art from [Link](https://www.reddit.com/r/PixelArt/comments/11m1fcp/bookshelf/)*
 * Added option to select the font size `Theme Configuration -> Font Size`. To change the font size, the font size values are in **./__inc/lang/font-size-*.xml**.
     - Default (1x)
-    - Medium (1.13x)
-    - Large (1.26x)
-    - Very Large (1.39x)
+    - Medium (1.1x)
+    - Large (1.2x)
+    - Very Large (1.3x)
+    - Max (1.4x)
+* Added option to select how many systems to display on system view. 
+    - 5 Systems
+    - 3 Systems (this is seems to be the default for a lot of 1x1 screen aspect ratio devices)
+
     
 ## Sidenote (Disclaimer)
+
+<!-- systemctl restart emulationstation -->
 
 You do not need to read this unless you want to edit the theme for yourself but here is the list of my findings for the future just in case if i want to come back and add more stuff.
 

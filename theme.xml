@@ -63,8 +63,8 @@ license:       creative commons CC-BY-NC-SA
     </subset>
 
     <subset name="system-view-count" displayName="System View: Count">
-        <include name="systemview-default" displayName="Display 5 Systems">${viewPath}/system-view-count-default.xml</include>
-        <include name="systemview-less" displayName="Display 3 Systems">${viewPath}/system-view-count-less.xml</include>
+        <include name="systemview-default" displayName="5 Systems">${viewPath}/system-view-count-default.xml</include>
+        <include name="systemview-less" displayName="3 Systems">${viewPath}/system-view-count-less.xml</include>
     </subset>
 
     <!-- overlay is the contrast transparent panel on system view -->
