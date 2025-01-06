@@ -6,11 +6,11 @@
 <theme>
     <formatVersion>7</formatVersion>
     <variables>
-        <gamelistFontSize>0.0378</gamelistFontSize>
-        <gameDescFontSize>0.02772</gameDescFontSize>
-        <menuTitleFontSize>0.04032</menuTitleFontSize>
-        <menuTextFontSize>0.0378</menuTextFontSize>
-        <systemInfoFontSize>0.0315</systemInfoFontSize>
-        <systemHelpFontSize>0.04536</systemHelpFontSize>
+        <gamelistFontSize>0.036</gamelistFontSize>
+        <gameDescFontSize>0.0264</gameDescFontSize>
+        <menuTitleFontSize>0.0384</menuTitleFontSize>
+        <menuTextFontSize>0.036</menuTextFontSize>
+        <systemInfoFontSize>0.03</systemInfoFontSize>
+        <systemHelpFontSize>0.0432</systemHelpFontSize>
     </variables>
 </theme>

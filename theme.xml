@@ -36,10 +36,11 @@ license:       creative commons CC-BY-NC-SA
 
     <!-- fonts -->
     <subset name="font-size" displayName="Font Size">
-        <include name="font-size-regular" displayName="Regular (1x)">${langPath}/font-size-regular.xml</include>
-        <include name="font-size-medium" displayName="Medium (1.13x)">${langPath}/font-size-medium.xml</include>
-        <include name="font-size-large" displayName="Large (1.26x)">${langPath}/font-size-large.xml</include>
-        <include name="font-size-very-large" displayName="Very Large (1.39x)">${langPath}/font-size-very-large.xml</include>
+        <include name="font-size-regular" displayName="Default (1x)">${langPath}/font-size-regular.xml</include>
+        <include name="font-size-medium" displayName="Medium (1.1x)">${langPath}/font-size-medium.xml</include>
+        <include name="font-size-large" displayName="Large (1.2x)">${langPath}/font-size-large.xml</include>
+        <include name="font-size-very-large" displayName="Very Large (1.3x)">${langPath}/font-size-very-large.xml</include>
+        <include name="font-size-maximum" displayName="Max (1.4x)">${langPath}/font-size-maximum.xml</include>
     </subset>
 
     <subset name="fontt" displayName="Font Type">

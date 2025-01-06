@@ -1,0 +1,16 @@
+<!-- 
+==========================================================
+> DEFAULT FONTSIZE: 1x
+==========================================================
+ -->
+<theme>
+    <formatVersion>7</formatVersion>
+    <variables>
+        <gamelistFontSize>0.042</gamelistFontSize>
+        <gameDescFontSize>0.0308</gameDescFontSize>
+        <menuTitleFontSize>0.0448</menuTitleFontSize>
+        <menuTextFontSize>0.042</menuTextFontSize>
+        <systemInfoFontSize>0.035</systemInfoFontSize>
+        <systemHelpFontSize>0.0504</systemHelpFontSize>
+    </variables>
+</theme>
