@@ -1,0 +1,7 @@
+<theme>
+    <view name="system">
+        <carousel name="systemcarousel">
+            <maxLogoCount>3</maxLogoCount>
+        </carousel>
+    </view>
+</theme>
