@@ -68,8 +68,10 @@ I added and modified few things here and there. some of the changes are as follo
 
     
 ## Sidenote (Disclaimer)
-
+<!-- https://stackoverflow.com/questions/1027179/displaying-svg-in-opengl-without-intermediate-raster -->
 <!-- systemctl restart emulationstation -->
+<!-- /sys/class/power_supply/battery/capacity -->
+<!-- https://github.com/hardkernel?tab=stars -->
 
 You do not need to read this unless you want to edit the theme for yourself but here is the list of my findings for the future just in case if i want to come back and add more stuff.
 
