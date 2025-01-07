@@ -7,7 +7,7 @@
     <formatVersion>7</formatVersion>
     <variables>
         <gamelistFontSize>0.033</gamelistFontSize>
-        <gameDescFontSize>0.0242</gameDescFontSize>
+        <gameDescFontSize>0.0245</gameDescFontSize>
         <menuTitleFontSize>0.0352</menuTitleFontSize>
         <menuTextFontSize>0.033</menuTextFontSize>
         <systemInfoFontSize>0.0275</systemInfoFontSize>

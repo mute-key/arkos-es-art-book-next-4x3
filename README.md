@@ -43,7 +43,7 @@ I added and modified few things here and there. some of the changes are as follo
 * Moved clock to top left and adjusted cordinate
 * Moved battery indiciator to top right and adjusted cordinate
 * Changed battery indiciator to frontend default and added spacing between icon and text
-* Added option to select system images between default and custom in `Theme Configuration -> System View: Image`. You can change theme also.
+* Added option to select system images between default and custom in `THEME CONFIGURATION -> SYSTEM VIEW: IMAGE`. You can change theme also.
     - Added custom system images;
         - __nes__: *mega man 3*
         - __gb__: *pokemon yellow*
@@ -56,15 +56,15 @@ I added and modified few things here and there. some of the changes are as follo
         - __psp__: *monster hunter portable 3rd*
         - __mame__: *arcade pixel art from [Link](https://www.reddit.com/r/readyplayerone/comments/116gill/i_drew_this_pixel_art_of_an_old_arcade_and_called/)*
         - __last-played__: *bookshelf pixel art from [Link](https://www.reddit.com/r/PixelArt/comments/11m1fcp/bookshelf/)*
-* Added option to select the font size `Theme Configuration -> Font Size`. To change the font size, the font size values are in **./__inc/lang/font-size-*.xml**.
+* Added option to select the font size `THEME CONFIGURATION -> SYSTEM VIEW: FONT SIZE`. To change the font size, the font size values are in **./__inc/lang/font-size-*.xml**.
     - Default (1x)
     - Medium (1.1x)
     - Large (1.2x)
     - Very Large (1.3x)
     - Max (1.4x)
-* Added option to select how many systems to display on system view. 
+* Added option to select how many systems to display on system view on `Theme Configuration -> SYSTEM VIEW: DISPLAY `
     - 5 Systems
-    - 3 Systems (this seems to be the default for a lot of 1x1 screen aspect ratio devices)
+    - 3 Systems (this seems to be the visual setting for a lot of 1x1 screen aspect ratio devices)
 
     
 ## Sidenote (Disclaimer)
